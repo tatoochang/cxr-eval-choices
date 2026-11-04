@@ -1,0 +1,51 @@
+{
+ "_note": "Values reported in the paper. scripts/check_against_paper.py compares them with work/results/*.json (rounded to 3 decimals).",
+ "internal": {
+  "reference_standard.any_reader.recall.1.0": 0.422,
+  "reference_standard.any_reader.ci95.1.0": [0.387, 0.461],
+  "reference_standard.consensus.recall.1.0": 0.699,
+  "reference_standard.consensus.ci95.1.0": [0.649, 0.750],
+  "reference_standard.paired_diff_consensus_minus_any.1.0.diff": 0.277,
+  "cv.pooled.recall.4.0": 0.822,
+  "fusion_rules.iou05.NMS, IoU 0.5.1.0": 0.699,
+  "fusion_rules.iou05.WBF-mean, IoU 0.5.1.0": 0.252,
+  "fusion_rules.iou05.Single tile (FP per tile).1.0": 0.785,
+  "fusion_rules.iou05.single_tile_lesions": 149,
+  "hit_criteria.centre_dup.recall.1.0": 0.756,
+  "hit_criteria.centre_dup.ci95.1.0": [0.704, 0.809],
+  "hit_criteria.centre_dup.recall.4.0": 0.891,
+  "operating_points.iou05.2.threshold": 0.62,
+  "operating_points.iou05.2.recall": 0.688,
+  "operating_points.iou05.2.marks_per_100": 132,
+  "operating_points.iou05.1.recall": 0.590,
+  "heldout.consensus.ensemble.iou05.recall.1.0": 0.765,
+  "heldout.consensus.ensemble.iou05.ci95.1.0": [0.575, 0.960],
+  "heldout.consensus.ensemble.iou05.recall.4.0": 0.853,
+  "degraded.down512_jpeg75.centre_dup.recall.1.0": 0.612,
+  "degraded.down512_jpeg75.centre_dup.ci95.1.0": [0.562, 0.667],
+  "degraded.down512.centre_dup.recall.1.0": 0.715
+ },
+ "external_original": {
+  "ensemble.centre_dup.recall.1.0": 0.734,
+  "ensemble.centre_dup.ci95.1.0": [0.702, 0.765],
+  "ensemble.centre_dup.recall.4.0": 0.877,
+  "ensemble.iou05.recall.1.0": 0.382,
+  "ensemble.iou05.ci95.1.0": [0.340, 0.426],
+  "ensemble.iou05.recall.4.0": 0.529,
+  "box_area_ratio.median": 1.74,
+  "replication.tile0_lesions": 371,
+  "size_tertiles.bins.0.recall": 0.71,
+  "size_tertiles.bins.1.recall": 0.76,
+  "size_tertiles.bins.2.recall": 0.73,
+  "lesions_per_image.gt3.recall_at_1fp": 0.56,
+  "lesions_per_image.le3.recall_at_1fp": 0.80,
+  "box_area_ratio.share_iou_ge_0.5": 0.64,
+  "replication.iou05.WBF-mean, IoU 0.5.1.0": [0.097],
+  "replication.iou05.Single tile (FP per tile).1.0": [0.469, 0.058],
+  "replication.iou05.NMS, IoU 0.5.1.0": [0.332, 0.033]
+ },
+ "external_jpeg512": {
+  "ensemble.centre_dup.recall.1.0": 0.617,
+  "ensemble.centre_dup.ci95.1.0": [0.574, 0.654]
+ }
+}

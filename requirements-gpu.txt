@@ -1,0 +1,4 @@
+-r requirements.txt
+torch>=2.2
+ultralytics==8.4.155
+torchxrayvision==1.5.5   # step 7 only

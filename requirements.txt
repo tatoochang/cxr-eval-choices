@@ -1,0 +1,6 @@
+numpy>=1.24
+pandas>=2.0
+opencv-python-headless>=4.8
+pillow>=10.0
+pydicom>=2.4
+pytest>=7.0
